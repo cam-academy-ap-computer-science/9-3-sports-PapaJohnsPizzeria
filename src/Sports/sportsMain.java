@@ -8,10 +8,13 @@ and all unique data:
 Compare the players of each sport in at least one attribute (for example)
 “In baseball, Aaron Judge has hit the most home runs”
 
- */
+*/
 
 public class sportsMain {
 	public static void main(String[] args) {
-		
+		player o1 = new player(75, "Vancouver", "Calvin");
+		System.out.println(o1.toString());
+		tennisPlayer o2 = new tennisPlayer("Wilson", false, "Babolat", 69, "Richland", "Richard");
+		System.out.println(o2.toString());
 	}
 }

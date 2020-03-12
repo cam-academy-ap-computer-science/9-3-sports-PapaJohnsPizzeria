@@ -1,9 +1,9 @@
 package Sports;
 
 public class tennisPlayer extends player{
-	private String racquetBrand = "Babolat";
-	private boolean rightHanded = true;
-	private String shoeBrand = "Yonex";
+	private String racquetBrand;
+	private boolean rightHanded;
+	private String shoeBrand;
 	
 	public tennisPlayer(String racquetBrand, boolean rightHanded, String shoeBrand, int height, String hometown, String name) {
 		super(height, hometown, name);
@@ -12,20 +12,7 @@ public class tennisPlayer extends player{
 		this.shoeBrand = shoeBrand;
 	}
 
-	public String getRacquetBrand() {
-		return racquetBrand;
-	}
-
-	public boolean isRightHanded() {
-		return rightHanded;
-	}
-
-	public String getShoeBrand() {
-		return shoeBrand;
-	}
-	
-	public String getEverythingTennisPlayer() {
-		return "[Name = " + name + " | Height in inches = " + heightInch + " | Hometown = "
-				+ " 
+	public String toString() {
+		return super.toString() + " | racquet brand: " + racquetBrand + " | is right handed? = " + rightHanded + " | shoe brand = " + shoeBrand;
 	}
 }
