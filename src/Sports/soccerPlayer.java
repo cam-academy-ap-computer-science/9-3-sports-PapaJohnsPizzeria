@@ -12,6 +12,6 @@ public class soccerPlayer extends player{
 		goalsScored = gS;
 	}
 	public String toString() {
-		return super.toString() + " | field position: " + position + " | player number = " + number + " | goals scored = " + goalsScored;
+		return super.toString() + "\nfield position: " + position + "\nplayer number = " + number + "\ngoals scored = " + goalsScored;
 	}
 }

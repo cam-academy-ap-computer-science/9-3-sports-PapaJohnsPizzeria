@@ -12,6 +12,6 @@ public class basketballPlayer extends player{
 		sponsor = s;
 	}
 	public String toString() {
-		return super.toString() + " | number of wins: " + numWins + " | shoe size = " + shoeSize + " | sponsor = " + sponsor;
+		return super.toString() + "\nnumber of wins: " + numWins + "\nshoe size = " + shoeSize + "\nsponsor = " + sponsor;
 	}
 }

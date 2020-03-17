@@ -13,6 +13,6 @@ public class tennisPlayer extends player{
 	}
 
 	public String toString() {
-		return super.toString() + " | racquet brand: " + racquetBrand + " | is right handed? = " + rightHanded + " | shoe brand = " + shoeBrand;
+		return super.toString() + "\nracquet brand: " + racquetBrand + "\nis right handed? = " + rightHanded + "\nshoe brand = " + shoeBrand;
 	}
 }
